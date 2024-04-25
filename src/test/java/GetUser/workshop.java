@@ -1,5 +1,6 @@
 package GetUser;
 
+import com.google.gson.internal.bind.util.ISO8601Utils;
 import org.testng.Assert;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -19,6 +20,10 @@ public class workshop
 {
     String year = null;
     reusableBody rs;
+
+    //Added some code
+    String address=null;
+
     @BeforeClass
     public void setUp()
     {
