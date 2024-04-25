@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNGNEW"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.450">
+    <properties></properties>
+
+
+
+            <testcase
+                name="reqres_new"
+                time="3.450"
+                classname="GetUser.spark">
+            </testcase>
+</testsuite>

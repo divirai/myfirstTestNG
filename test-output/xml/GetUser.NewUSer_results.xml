@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cecsioustofaner"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.142">
+    <properties></properties>
+
+
+
+            <testcase
+                name="book_xml"
+                time="0.001"
+                classname="GetUser.NewUSer">
+            </testcase>
+            <testcase
+                name="adduser"
+                time="3.458"
+                classname="GetUser.NewUSer">
+            </testcase>
+            <testcase
+                name="clecusoistofanern"
+                time="2.928"
+                classname="GetUser.NewUSer">
+            </testcase>
+            <testcase
+                name="valiadateWithContains"
+                time="3.755"
+                classname="GetUser.NewUSer">
+            </testcase>
+</testsuite>

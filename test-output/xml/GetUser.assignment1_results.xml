@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cecsioustofaner"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="2.670">
+    <properties></properties>
+
+            <testcase
+                name="assignemnt"
+                time="2.670"
+                classname="GetUser.assignment1">
+
+            <failure type="java.lang.ClassCastException" message="class java.lang.Integer cannot be cast to class java.util.List (java.lang.Integer and java.util.List are in module java.base of loader &apos;bootstrap&apos;)">
+                <![CDATA[java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.util.List (java.lang.Integer and java.util.List are in module java.base of loader 'bootstrap')
+                io.restassured.path.json.JsonPath.getList(JsonPath.java:375)GetUser.assignment1.assignemnt(assignment1.java:15)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </failure>
+    </testcase>
+
+
+</testsuite>

@@ -1,0 +1,25 @@
+
+
+<suite name="reg" verbose="1" parallel="methods">
+
+
+     <test name="Cecsioustofaner">
+
+         <parameter name="requrl" value="https://reqres.in/api/users"></parameter>
+         <parameter name="name" value="Raksha"></parameter>
+         <parameter name="SSN" value="545944999"></parameter>
+
+
+        <parameter name="celsURL" value="https://www.w3schools.com/xml/tempconvert.asmx"></parameter>
+        <parameter name="celsios" value="5" ></parameter>
+         <parameter name="excpectefanse" value="41" ></parameter>
+         <parameter name="bookurl" value="https://chercher.tech/sample/api/books.xml" ></parameter>
+         <parameter name="rerwsGet" value="https://reqres.in/api/users?page=2" ></parameter>
+
+
+
+         <classes>
+            <class name="GetUser.workshop" />
+        </classes>
+    </test>
+</suite>
