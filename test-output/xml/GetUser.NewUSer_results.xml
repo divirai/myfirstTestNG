@@ -1,32 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cecsioustofaner"
-           tests="4"
-           failures="0"
+<testsuite name="NewUSer"
+           tests="5"
+           failures="1"
            errors="0"
            skipped="0"
-           time="10.142">
+           time="11.113">
     <properties></properties>
 
+            <testcase
+                name="deleteuser"
+                time="2.750"
+                classname="GetUser.NewUSer">
+
+            <failure type="java.lang.AssertionError" message="1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;415&gt;.
+">
+                <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <204> but was <415>.
+
+                java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$4.call(Unknown Source)org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)io.restassured.specification.ResponseSpecification$statusCode$3.callCurrent(Unknown Source)org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)GetUser.NewUSer.deleteuser(NewUSer.java:72)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </failure>
+    </testcase>
 
 
             <testcase
-                name="book_xml"
-                time="0.001"
+                name="valiadateWithContains"
+                time="2.977"
                 classname="GetUser.NewUSer">
             </testcase>
             <testcase
                 name="adduser"
-                time="3.458"
+                time="2.822"
+                classname="GetUser.NewUSer">
+            </testcase>
+            <testcase
+                name="book_xml"
+                time="0.002"
                 classname="GetUser.NewUSer">
             </testcase>
             <testcase
                 name="clecusoistofanern"
-                time="2.928"
-                classname="GetUser.NewUSer">
-            </testcase>
-            <testcase
-                name="valiadateWithContains"
-                time="3.755"
+                time="2.562"
                 classname="GetUser.NewUSer">
             </testcase>
 </testsuite>

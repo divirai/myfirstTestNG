@@ -61,6 +61,21 @@ public class NewUSer {
 
     }
 
+
+    @Parameters({"requrldelete"})
+    @Test(groups= {"smoke"})
+    public void deleteuser(String requrldelete)
+    {
+
+         when()
+                .post(requrldelete).
+                then().statusCode(415).log().all();
+
+        System.out.println("User DSeletes ");
+
+    }
+
+
     @Parameters({"celsURL","celsios","excpectefanse"})
     @Test(groups= {"reggresion"})
     public void clecusoistofanern(String celsURL, String celsious, String expcted)

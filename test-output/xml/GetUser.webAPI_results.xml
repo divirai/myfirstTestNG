@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestNGNEW"
+<testsuite name="NewUSer"
            tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="3.060">
+           time="4.924">
     <properties></properties>
 
 
 
             <testcase
                 name="doAllWebAppTest"
-                time="3.060"
+                time="4.924"
                 classname="GetUser.webAPI">
             </testcase>
 </testsuite>

@@ -16,7 +16,7 @@ public class reusableBody {
 
         String body = "{\n" +
                 "    \"name\": \""+name+"\",\n" +
-                "    \"job\": \"AUTOMATION TESTER\",\n" +
+                "    \"job\": \"NEW DEA\",\n" +
                 "    \"Address\": \"123 Bangalore Karnataka\",\n" +
                 "    \"SSN\": \"" +SSN+ "\"\n" +
                 "}";
